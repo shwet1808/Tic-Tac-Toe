@@ -62,8 +62,9 @@ nav ul {
     padding: 0, 34px;
 }
 
-.imgbox {
-    display: none;
+.imgbox img {
+ width: 0;
+ transition: width 1s ease-in-out ;
 }
 
 .br-0 {
@@ -81,4 +82,15 @@ nav ul {
 
 .bt-0 {
     border-top: 0;
+}
+#reset{
+    margin: 0  23px ;
+    padding: 1px 40px;
+    background: rgb(145, 120, 144);
+    border-radius: 6px;
+    cursor : pointer;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    font-weight: bolder;
+
 }
